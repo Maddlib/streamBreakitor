@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Test Extension Options</title></head>
+<body>
+
+Append or Replace:
+<select id="style">
+ <option value="Append">Append</option>
+ <option value="Replace">Replace</option>
+</select>
+<br>
+<br>Append adds the unstreamed String to the end of the page. This does not go away without loading a new page/refreshing the current page. 
+Navigating to a new tab in SPOC, including by searching for a new result, WILL NOT CLEAR the string.
+<br>
+<br>Replace breaks pages by removing what was there and replacing the entire page with a new string. This is great for monitor, because the pages
+are essentially stand alone, but very much breaks SPOC functionality. 
+<br>
+
+<div id="status"></div>
+<button id="save">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>
